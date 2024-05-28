@@ -35,7 +35,7 @@
       "id": 2,
       "title": "Pride and Prejudice",
       "description": "A classic romance novel about the manners and matrimonial machinations among the British gentry of the early 19th century.",
-      "price": 12.50,
+      "price": 12.5,
       "rating": 4.6,
       "category_id": 2,
       "image_url": "https://m.media-amazon.com/images/M/MV5BMTA1NDQ3NTcyOTNeQTJeQWpwZ15BbWU3MDA0MzA4MzE@._V1_.jpg"
@@ -98,7 +98,7 @@
       "id": 9,
       "title": "The Hobbit",
       "description": "A fantasy novel about the journey of Bilbo Baggins as he seeks treasure guarded by Smaug the dragon.",
-      "price": 8.50,
+      "price": 8.5,
       "rating": 4.8,
       "category_id": 5,
       "image_url": "https://images.unsplash.com/photo-1544716278-e513176f20b5"
@@ -111,6 +111,27 @@
       "rating": 4.6,
       "category_id": 1,
       "image_url": "https://images.unsplash.com/photo-1544716278-e513176f20b5"
+    },
+    {
+      "id": "a658",
+      "title": "Those Days",
+      "price": "12",
+      "category": "Classic",
+      "description": "সেই সময় একটি বাংলা ঐতিহাসিক উপন্যাস যার উপজীব্য ঊনবিংশ শতাব্দীর ব্রিটিশ শাসনামলের বিকাশমান কলকাতা নগরীর সমাজ এবং মানুষ"
+    },
+    {
+      "id": "537d",
+      "title": "Himu (Novel)",
+      "price": "50",
+      "category": "Classic",
+      "description": "Best Humayun Ahmed Novel Books: Most Popular All Time (13 Products). By: Rokomari.com, 16 May 2019"
+    },
+    {
+      "id": "be85",
+      "title": "Those Days",
+      "price": "40",
+      "category": "Dystopian",
+      "description": "সেই সময় একটি বাংলা ঐতিহাসিক উপন্যাস যার উপজীব্য ঊনবিংশ শতাব্দীর ব্রিটিশ শাসনামলের বিকাশমান কলকাতা নগরীর সমাজ এবং মানুষ"
     }
   ]
 }

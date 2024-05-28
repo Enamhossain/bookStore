@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 
 const ManageService = () => {
   const [books, setBooks] = useState();
-  console.log(books);
   useEffect(() => {
     async function fetchBooks() {
       try {
@@ -20,6 +19,19 @@ const ManageService = () => {
 
     fetchBooks();
   }, []);
+
+  const handleDelete = async (id) => {
+    try {
+      await axios.delete(`http://localhost:3000/books/${id}`);
+      setBooks((prevBooks) => prevBooks.filter((book) => book.id !== id));
+      console.log("Book deleted successfully");
+    } catch (error) {
+      console.error("Error deleting book:", error);
+    }
+  };
+
+
+
   return (
     <div className="bg-gray-100 dark:bg-gray-900 min-h-screen p-6">
       <section className="container px-4 mx-auto mt-10">
@@ -105,7 +117,7 @@ const ManageService = () => {
                     <button className="px-2 py-1 text-md font-bold bg-green-600 text-gray-100 border rounded-lg transition-colors duration-200 hover:bg-gray-800 dark:hover:bg-gray-800 dark:text-gray-300">
                       Edit
                     </button>
-                    <button className="px-2 py-1 mt-5 text-md font-bold bg-red-500 text-gray-100 border rounded-lg transition-colors duration-200 hover:bg-gray-800 dark:hover:bg-gray-800 dark:text-gray-300">
+                    <button  onClick={() => handleDelete(book.id)} className="px-2 py-1 mt-5 text-md font-bold bg-red-500 text-gray-100 border rounded-lg transition-colors duration-200 hover:bg-gray-800 dark:hover:bg-gray-800 dark:text-gray-300">
                       Delete
                     </button>
                   </td>

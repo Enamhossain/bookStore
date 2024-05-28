@@ -41,11 +41,11 @@ export const router = createBrowserRouter([
         element: <Dashboard />
       },
       {
-        path: "AddService",
+        path: "Addbook",
         element: <AddService />
       },
       {
-        path: "manageService",
+        path: "managebook",
         element: <ManageService />
       },
    
