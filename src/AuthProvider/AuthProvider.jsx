@@ -43,7 +43,7 @@ const AuthProvider = ({ children }) => {
     const unscubcribe = onAuthStateChanged(auth, (currentUser) => {
       if (currentUser) {
         setUser(currentUser);
-        console.log(currentUser);
+        
       }
 
       return () => unscubcribe();

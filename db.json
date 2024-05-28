@@ -29,7 +29,7 @@
       "price": 9.99,
       "rating": 4.8,
       "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1544932644-76d32f9d60e4"
+      "image_url": "https://m.media-amazon.com/images/I/61ZewDE3beL._AC_UF1000,1000_QL80_.jpg"
     },
     {
       "id": 2,
@@ -38,7 +38,7 @@
       "price": 12.50,
       "rating": 4.6,
       "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1544717301-9cdcb1f594af"
+      "image_url": "https://m.media-amazon.com/images/M/MV5BMTA1NDQ3NTcyOTNeQTJeQWpwZ15BbWU3MDA0MzA4MzE@._V1_.jpg"
     },
     {
       "id": 3,
@@ -47,7 +47,7 @@
       "price": 8.99,
       "rating": 4.9,
       "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1544716278-e513176f20b5"
+      "image_url": "https://m.media-amazon.com/images/M/MV5BNmVmYzcwNzMtMWM1NS00MWIyLThlMDEtYzUwZDgzODE1NmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
     },
     {
       "id": 4,
@@ -56,7 +56,7 @@
       "price": 10.99,
       "rating": 4.4,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1544717301-3bb0b54581e2"
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKi5lknrw7SIwZ01RQRqyvtXz2bFxrUsGVpA&s"
     },
     {
       "id": 5,
@@ -65,7 +65,7 @@
       "price": 11.99,
       "rating": 4.2,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1544717301-3bb0b54581e2"
+      "image_url": "https://m.media-amazon.com/images/M/MV5BYzg0MjFmMjAtMmNlMC00ZmEzLWE0ZDQtYTFhZjAyNzIxZWU3XkEyXkFqcGdeQXVyMjQwMjk0NjI@._V1_.jpg"
     },
     {
       "id": 6,
@@ -74,7 +74,7 @@
       "price": 14.99,
       "rating": 4.7,
       "category_id": 4,
-      "image_url": "https://images.unsplash.com/photo-1544717301-3bb0b54581e2"
+      "image_url": "https://cdn.penguin.co.uk/dam-assets/books/9781849908467/9781849908467-jacket-large.jpg"
     },
     {
       "id": 7,
