@@ -4,7 +4,7 @@ import useAuth from "../../Hook/useAuth";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [menuOne, setMenuOne] = useState(false);
+
 
   const { user, logOut } = useAuth();
   console.log(logOut);
@@ -28,33 +28,20 @@ const Header = () => {
               }`}
             >
               <div className="relative flex flex-col">
-                <a
-                  href="#"
-                  className={`flex flex-row rounded-lg hover:text-[#c9fd02] lg:px-6 lg:py-4 ${
-                    menuOne ? "text-[#c9fd02]" : "text-white"
-                  }`}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setMenuOne(!menuOne);
-                  }}
+                <Link
+                  to="/"
+                  className="flex flex-row rounded-lg hover:text-[#c9fd02] lg:px-6 lg:py-4 "
+               
                 >
-                 Popular Book
-                  <svg
-                    className={`fill-current transition ${
-                      menuOne ? "rotate-180" : "rotate-0"
-                    }`}
-                    style={{ width: "24px", height: "24px" }}
-                    viewBox="0 0 24 24"
-                  >
-                  
-                  </svg>
-                </a>
+                Home
+                 
+                </Link>
                 
               </div>
               <Link to="/bookstore"
                 className="font-inter rounded-lg hover:text-[#c9fd02] lg:px-6 lg:py-4"
               >
-                Book Store
+                Books
               </Link>
               <a
                 href="#"

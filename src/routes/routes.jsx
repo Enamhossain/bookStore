@@ -11,7 +11,6 @@ import Signup from '../Pages/Singup/Singup';
 import ErrorPage from '../Pages/ErrorPage/ErrorPage';
 import AddService from '../Pages/Dashboard/AddService/AddService';
 import ManageService from '../Pages/Dashboard/ManageService/ManageService';
-import BookStore from '../Pages/Service/BookStore';
 import BookstoreAll from '../Pages/BookStore/BookstoreAll';
 
 export const router = createBrowserRouter([
