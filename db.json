@@ -1,0 +1,116 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Dystopian"
+    },
+    {
+      "id": 2,
+      "name": "Romance"
+    },
+    {
+      "id": 3,
+      "name": "Fiction"
+    },
+    {
+      "id": 4,
+      "name": "Classic"
+    },
+    {
+      "id": 5,
+      "name": "Fantasy"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "1984",
+      "description": "A dystopian novel set in a totalitarian society under constant surveillance.",
+      "price": 9.99,
+      "rating": 4.8,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1544932644-76d32f9d60e4"
+    },
+    {
+      "id": 2,
+      "title": "Pride and Prejudice",
+      "description": "A classic romance novel about the manners and matrimonial machinations among the British gentry of the early 19th century.",
+      "price": 12.50,
+      "rating": 4.6,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1544717301-9cdcb1f594af"
+    },
+    {
+      "id": 3,
+      "title": "To Kill a Mockingbird",
+      "description": "A novel about the serious issues of rape and racial inequality narrated by young Scout Finch.",
+      "price": 8.99,
+      "rating": 4.9,
+      "category_id": 3,
+      "image_url": "https://images.unsplash.com/photo-1544716278-e513176f20b5"
+    },
+    {
+      "id": 4,
+      "title": "The Great Gatsby",
+      "description": "A story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan.",
+      "price": 10.99,
+      "rating": 4.4,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1544717301-3bb0b54581e2"
+    },
+    {
+      "id": 5,
+      "title": "Moby Dick",
+      "description": "The saga of Captain Ahab and his relentless pursuit of the white whale, Moby Dick.",
+      "price": 11.99,
+      "rating": 4.2,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1544717301-3bb0b54581e2"
+    },
+    {
+      "id": 6,
+      "title": "War and Peace",
+      "description": "A historical novel that chronicles the history of the French invasion of Russia and the impact of the Napoleonic era.",
+      "price": 14.99,
+      "rating": 4.7,
+      "category_id": 4,
+      "image_url": "https://images.unsplash.com/photo-1544717301-3bb0b54581e2"
+    },
+    {
+      "id": 7,
+      "title": "The Catcher in the Rye",
+      "description": "A story about the events and circumstances that take place in the life of Holden Caulfield.",
+      "price": 7.99,
+      "rating": 4.3,
+      "category_id": 3,
+      "image_url": "https://images.unsplash.com/photo-1544716278-e513176f20b5"
+    },
+    {
+      "id": 8,
+      "title": "Jane Eyre",
+      "description": "A novel that follows the experiences of its eponymous heroine, including her growth to adulthood and her love for Mr. Rochester.",
+      "price": 9.49,
+      "rating": 4.5,
+      "category_id": 2,
+      "image_url": "https://images.unsplash.com/photo-1544716278-e513176f20b5"
+    },
+    {
+      "id": 9,
+      "title": "The Hobbit",
+      "description": "A fantasy novel about the journey of Bilbo Baggins as he seeks treasure guarded by Smaug the dragon.",
+      "price": 8.50,
+      "rating": 4.8,
+      "category_id": 5,
+      "image_url": "https://images.unsplash.com/photo-1544716278-e513176f20b5"
+    },
+    {
+      "id": 10,
+      "title": "Fahrenheit 451",
+      "description": "A dystopian novel about a future American society where books are outlawed and 'firemen' burn any that are found.",
+      "price": 9.75,
+      "rating": 4.6,
+      "category_id": 1,
+      "image_url": "https://images.unsplash.com/photo-1544716278-e513176f20b5"
+    }
+  ]
+}
