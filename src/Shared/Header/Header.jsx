@@ -51,12 +51,11 @@ const Header = () => {
                 </a>
                 
               </div>
-              <a
-                href="#"
+              <Link to="/bookstore"
                 className="font-inter rounded-lg hover:text-[#c9fd02] lg:px-6 lg:py-4"
               >
                 Book Store
-              </a>
+              </Link>
               <a
                 href="#"
                 className="font-inter rounded-lg hover:text-[#c9fd02] lg:px-6 lg:py-4"

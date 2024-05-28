@@ -7,9 +7,11 @@ function Section() {
         className="overflow-hidden  dark:bg-gray-900 lg:mx-8 lg:flex lg:max-w-6xl lg:w-full lg:shadow-md lg:rounded-xl">
         <div className="lg:w-1/2">
         <div
-      className="h-64 bg-cover lg:h-full"
+      className="h-64 bg-cover lg:h-full w-full"
       style={{
-        backgroundImage: "url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')"
+        backgroundImage: "url('https://img.freepik.com/free-photo/books-stack-with-dark-background_23-2148898287.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center"
       }}
     ></div>
         </div>
@@ -20,7 +22,7 @@ function Section() {
   </h2>
 
   <p className="mt-4 text-white dark:text-gray-300">
-    Explore a vast collection of books from various genres. Whether you're into classics, romance, fantasy, or dystopian novels, we have something for everyone. Dive into captivating stories, enrich your mind, and embark on unforgettable adventures through the pages of our books.
+    Explore a vast collection of books from various genres. Whether youre into classics, romance, fantasy, or dystopian novels, we have something for everyone. Dive into captivating stories, enrich your mind, and embark on unforgettable adventures through the pages of our books.
   </p>
 
   <div className="inline-flex w-full mt-6 sm:w-auto">

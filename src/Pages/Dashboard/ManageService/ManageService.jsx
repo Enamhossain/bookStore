@@ -3,8 +3,21 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 
+
 const ManageService = () => {
   const [books, setBooks] = useState();
+ 
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const openModal = () => {
+    setIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+  };
+
   useEffect(() => {
     async function fetchBooks() {
       try {
@@ -30,8 +43,6 @@ const ManageService = () => {
     }
   };
 
-
-
   return (
     <div className="bg-gray-100 dark:bg-gray-900 min-h-screen p-6">
       <section className="container px-4 mx-auto mt-10">
@@ -40,9 +51,7 @@ const ManageService = () => {
             Manage Items
           </h2>
           <span className="px-3 py-1 text-md  text-blue-600 bg-blue-100 rounded-full dark:bg-gray-800 dark:text-blue-400">
-            {
-              books?.length
-            }  Items
+            {books?.length} Items
           </span>
         </div>
 
@@ -66,13 +75,13 @@ const ManageService = () => {
                   scope="col"
                   className="px-12 py-3 text-xs font-medium text-gray-500 uppercase text-left dark:text-gray-400"
                 >
-                 description
+                  description
                 </th>
                 <th
                   scope="col"
                   className="px-6 py-3 text-xs font-medium text-gray-500 uppercase text-left dark:text-gray-400"
                 >
-                  Role
+                  Rating
                 </th>
                 <th
                   scope="col"
@@ -114,20 +123,126 @@ const ManageService = () => {
                     {book.rating}
                   </td>
                   <td className="px-6 py-4 text-sm font-medium text-right whitespace-nowrap">
-                    <button className="px-2 py-1 text-md font-bold bg-green-600 text-gray-100 border rounded-lg transition-colors duration-200 hover:bg-gray-800 dark:hover:bg-gray-800 dark:text-gray-300">
+                    <button
+                      onClick={openModal}
+                      className="px-2 py-1 text-md font-bold bg-green-600 text-gray-100 border rounded-lg transition-colors duration-200 hover:bg-gray-800 dark:hover:bg-gray-800 dark:text-gray-300"
+                    >
                       Edit
                     </button>
-                    <button  onClick={() => handleDelete(book.id)} className="px-2 py-1 mt-5 text-md font-bold bg-red-500 text-gray-100 border rounded-lg transition-colors duration-200 hover:bg-gray-800 dark:hover:bg-gray-800 dark:text-gray-300">
+                    <button
+                      onClick={() => handleDelete(book.id)}
+                      className="px-2 py-1 mt-5 text-md font-bold bg-red-500 text-gray-100 border rounded-lg transition-colors duration-200 hover:bg-gray-800 dark:hover:bg-gray-800 dark:text-gray-300"
+                    >
                       Delete
                     </button>
                   </td>
-                 
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
       </section>
+       {/* Model Edit */}
+      <div
+        className={`fixed inset-0 z-10 overflow-y-auto bg-gray-900 bg-opacity-50 ${
+          isOpen ? "" : "hidden"
+        }`}
+      >
+        <div className="flex items-end justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
+          <span
+            className="hidden sm:inline-block sm:h-screen sm:align-middle"
+            aria-hidden="true"
+          >
+            &#8203;
+          </span>
+
+          <div className="relative inline-block px-4 pt-5 pb-4 overflow-hidden text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl dark:bg-gray-900 sm:my-8 sm:w-full sm:max-w-sm sm:p-6 sm:align-middle">
+            <h3
+              className="text-lg font-medium leading-6 text-gray-800 capitalize dark:text-white"
+              id="modal-title"
+            >
+              Edit Book
+            </h3>
+            <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
+              Update the details of the book.
+            </p>
+
+            <form className="mt-4" action="#">
+              <label
+                htmlFor="title"
+                className="text-sm text-gray-700 dark:text-gray-200"
+              >
+                Title
+              </label>
+              <input
+                type="text"
+                name="title"
+                id="title"
+                placeholder="Title"
+                className="block w-full px-4 py-3 mt-1 text-sm text-gray-700 bg-white border border-gray-200 rounded-md focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 dark:border-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:focus:border-blue-300"
+              />
+
+              <label
+                htmlFor="description"
+                className="block mt-3 text-sm text-gray-700 dark:text-gray-200"
+              >
+                Description
+              </label>
+              <textarea
+                id="description"
+                name="description"
+                placeholder="Description"
+                rows="4"
+                className="block w-full px-4 py-3 mt-1 text-sm text-gray-700 bg-white border border-gray-200 rounded-md focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 dark:border-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:focus:border-blue-300"
+              ></textarea>
+
+              <label
+                htmlFor="price"
+                className="block mt-3 text-sm text-gray-700 dark:text-gray-200"
+              >
+                Price
+              </label>
+              <input
+                type="number"
+                name="price"
+                id="price"
+                placeholder="Price"
+                className="block w-full px-4 py-3 mt-1 text-sm text-gray-700 bg-white border border-gray-200 rounded-md focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 dark:border-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:focus:border-blue-300"
+              />
+              {/* <div className="mb-4">
+                <label htmlFor="">Cateogry </label>
+                <select
+                  name="category"
+                  id=""
+                  className="w-full py-3 px-5 border text-gray-900"
+                >
+                  {categories?.map((category) => (
+                    <option key={category?.id} value={category?.name}>
+                      {category?.name}
+                    </option>
+                  ))}
+                </select>
+              </div> */}
+              <div className="mt-4 sm:flex sm:items-center sm:-mx-2">
+                <button
+                  type="button"
+                  onClick={closeModal}
+                  className="w-full px-4 py-2 text-sm font-medium tracking-wide text-gray-700 capitalize transition-colors duration-300 transform border border-gray-200 rounded-md sm:w-1/2 sm:mx-2 dark:text-gray-200 dark:border-gray-700 dark:hover:bg-gray-800 hover:bg-gray-100 focus:outline-none focus:ring focus:ring-gray-300 focus:ring-opacity-40"
+                >
+                  Cancel
+                </button>
+
+                <button
+                  type="button"
+                  className="w-full px-4 py-2 mt-3 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md sm:mt-0 sm:w-1/2 sm:mx-2 hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40"
+                >
+                  Save Changes
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
