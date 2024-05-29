@@ -8,10 +8,10 @@ const BookStore = () => {
  
 
   useEffect(() => {
-    fetch("http://localhost:3000/books")
+    fetch("https://www.dbooks.org/api/recent")
       .then((res) => res.json())
-      .then((data) => setBooks(data));
-
+      .then((data) => setBooks(data?.books));
+ 
     
   }, []);
   useEffect(() => {
@@ -38,18 +38,18 @@ const BookStore = () => {
              </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {books?.slice(0,6).map((book) => (
+          {books?.slice(14,20).map((book) => (
             <BookStoreCard
               key={book.id}
               title={book.title}
-              description={book.description}
-              image={book.image_url}
+              description={book.subtitle}
+              image={book.image}
               price={book.price}
               rating={book.rating}
             />
           ))}
         </div>
-        <button className="btn bg-indigo-500 p-3 mt-5">More Books</button>
+        <button className="btn bg-[#C3F502] text-black p-3 mt-5">More Books</button>
       </div>
     </section>
   );

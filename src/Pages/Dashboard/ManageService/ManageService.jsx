@@ -18,6 +18,22 @@ const ManageService = () => {
     setIsOpen(false);
   };
 
+  const [categories, setCategories] = useState();
+
+  useEffect(() => {
+    async function load() {
+      const data = await axios.get("http://localhost:3000/categories");
+      if (data?.status === 200) {
+        console.log(data?.data);
+        setCategories(data?.data);
+      }
+    }
+
+    load();
+  }, []);
+
+
+
   useEffect(() => {
     async function fetchBooks() {
       try {
@@ -209,7 +225,7 @@ const ManageService = () => {
                 placeholder="Price"
                 className="block w-full px-4 py-3 mt-1 text-sm text-gray-700 bg-white border border-gray-200 rounded-md focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 dark:border-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:focus:border-blue-300"
               />
-              {/* <div className="mb-4">
+              <div className="mb-4">
                 <label htmlFor="">Cateogry </label>
                 <select
                   name="category"
@@ -222,7 +238,7 @@ const ManageService = () => {
                     </option>
                   ))}
                 </select>
-              </div> */}
+              </div>
               <div className="mt-4 sm:flex sm:items-center sm:-mx-2">
                 <button
                   type="button"

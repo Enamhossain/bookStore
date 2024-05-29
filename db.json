@@ -1,29 +1,32 @@
 {
   "categories": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Dystopian"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Romance"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Fiction"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Classic"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Fantasy"
+    },
+    {
+      "id": "971e"
     }
   ],
   "books": [
     {
-      "id": 1,
+      "id": "1",
       "title": "1984",
       "description": "A dystopian novel set in a totalitarian society under constant surveillance.",
       "price": 9.99,
@@ -32,7 +35,7 @@
       "image_url": "https://m.media-amazon.com/images/I/61ZewDE3beL._AC_UF1000,1000_QL80_.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Pride and Prejudice",
       "description": "A classic romance novel about the manners and matrimonial machinations among the British gentry of the early 19th century.",
       "price": 12.5,
@@ -41,7 +44,7 @@
       "image_url": "https://m.media-amazon.com/images/M/MV5BMTA1NDQ3NTcyOTNeQTJeQWpwZ15BbWU3MDA0MzA4MzE@._V1_.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "To Kill a Mockingbird",
       "description": "A novel about the serious issues of rape and racial inequality narrated by young Scout Finch.",
       "price": 8.99,
@@ -50,7 +53,7 @@
       "image_url": "https://m.media-amazon.com/images/M/MV5BNmVmYzcwNzMtMWM1NS00MWIyLThlMDEtYzUwZDgzODE1NmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "The Great Gatsby",
       "description": "A story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan.",
       "price": 10.99,
@@ -59,7 +62,7 @@
       "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKi5lknrw7SIwZ01RQRqyvtXz2bFxrUsGVpA&s"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Moby Dick",
       "description": "The saga of Captain Ahab and his relentless pursuit of the white whale, Moby Dick.",
       "price": 11.99,
@@ -68,7 +71,7 @@
       "image_url": "https://m.media-amazon.com/images/M/MV5BYzg0MjFmMjAtMmNlMC00ZmEzLWE0ZDQtYTFhZjAyNzIxZWU3XkEyXkFqcGdeQXVyMjQwMjk0NjI@._V1_.jpg"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "War and Peace",
       "description": "A historical novel that chronicles the history of the French invasion of Russia and the impact of the Napoleonic era.",
       "price": 14.99,
@@ -77,7 +80,7 @@
       "image_url": "https://cdn.penguin.co.uk/dam-assets/books/9781849908467/9781849908467-jacket-large.jpg"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "The Catcher in the Rye",
       "description": "A story about the events and circumstances that take place in the life of Holden Caulfield.",
       "price": 7.99,
@@ -86,7 +89,7 @@
       "image_url": "https://images.unsplash.com/photo-1544716278-e513176f20b5"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Jane Eyre",
       "description": "A novel that follows the experiences of its eponymous heroine, including her growth to adulthood and her love for Mr. Rochester.",
       "price": 9.49,
@@ -95,7 +98,7 @@
       "image_url": "https://images.unsplash.com/photo-1544716278-e513176f20b5"
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "The Hobbit",
       "description": "A fantasy novel about the journey of Bilbo Baggins as he seeks treasure guarded by Smaug the dragon.",
       "price": 8.5,
@@ -104,7 +107,7 @@
       "image_url": "https://images.unsplash.com/photo-1544716278-e513176f20b5"
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Fahrenheit 451",
       "description": "A dystopian novel about a future American society where books are outlawed and 'firemen' burn any that are found.",
       "price": 9.75,
@@ -132,6 +135,13 @@
       "price": "40",
       "category": "Dystopian",
       "description": "সেই সময় একটি বাংলা ঐতিহাসিক উপন্যাস যার উপজীব্য ঊনবিংশ শতাব্দীর ব্রিটিশ শাসনামলের বিকাশমান কলকাতা নগরীর সমাজ এবং মানুষ"
+    },
+    {
+      "id": "f055",
+      "title": "Atomic Habits",
+      "price": "16",
+      "category": "Fiction",
+      "description": "A supremely practical and useful book. James Clear distils the most fundamental information about habit formation, so you can accomplish more by focusing on less."
     }
   ]
 }

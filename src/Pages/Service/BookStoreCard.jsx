@@ -10,9 +10,9 @@ const BookStoreCard = ({ title, description, image, price, rating }) => {
     <div className="mt-4">
       <h2 className="text-2xl font-medium">{title}</h2>
       <p className="mt-2 text-base text-gray-100">{description}</p>
-      <p className="mt-2 text-gray-400">Price: ${price}</p>
-      <p className="mt-2 text-gray-400">Rating: {rating}</p>
-      <button className="mt-4 py-2 px-4 bg-green-500 text-white rounded hover:bg-yellow-600 focus:outline-none focus:bg-yellow-600">
+      <p className="mt-2 text-gray-100">Price: ${price}100</p>
+      <p className="mt-2 text-gray-100">Rating: {rating}100</p>
+      <button className="mt-4 py-2 px-4 bg-[#C3F502] text-black font-bold rounded hover:bg-yellow-600 focus:outline-none focus:bg-yellow-600">
         Details
       </button>
     </div>
