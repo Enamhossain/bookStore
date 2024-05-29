@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import CardUi, { MetricsCard } from "../../component/CardUi"
+import { MetricsCard } from "../../component/CardUi"
 import DashboardGrap from "../../component/DashboardGrap"
 import Header from "./Header"
 

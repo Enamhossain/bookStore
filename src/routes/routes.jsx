@@ -37,12 +37,12 @@ export const router = createBrowserRouter([
     ]
   },
   {
-    path: "/Dashboard",
+    path: "/",
     element: <PrivateRoute> <DashboardLayout /></PrivateRoute>,
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/",
+        path:"home",
         element: <Dashboard />
       },
       {
