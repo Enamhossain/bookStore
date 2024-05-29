@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { createBrowserRouter } from 'react-router-dom';
 
 
@@ -12,48 +13,53 @@ import ErrorPage from '../Pages/ErrorPage/ErrorPage';
 import AddService from '../Pages/Dashboard/AddService/AddService';
 import ManageService from '../Pages/Dashboard/ManageService/ManageService';
 import BookstoreAll from '../Pages/BookStore/BookstoreAll';
-
+import DetailsCard from '../component/DetailsCard';
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <MainLayout/>,
+    element: <MainLayout />,
     children: [
       {
-        path: "/",
-        element: <Home/>
+        path: "",
+        element: <Home />
       },
       {
-        path: "/bookstore",
-        element: <BookstoreAll/>
+        path: "books/:id",
+        element: <DetailsCard />,
+        loader: ({ params }) =>
+          fetch(`http://localhost:3000/books/${params.id}`),
       },
       {
-        path: "/registation",
+        path: "bookstore",
+        element: <BookstoreAll />
+      },
+      {
+        path: "registration",
         element: <Signup />
       },
       {
-        path: "/login",
+        path: "login",
         element: <Login />
       },
     ]
   },
   {
-    path: "/",
-    element: <PrivateRoute> <DashboardLayout /></PrivateRoute>,
+    path: "dashboard",
+    element: <PrivateRoute><DashboardLayout /></PrivateRoute>,
     errorElement: <ErrorPage />,
     children: [
       {
-        path:"home",
+        path: "",
         element: <Dashboard />
       },
       {
-        path: "Addbook",
+        path: "addbook",
         element: <AddService />
       },
       {
         path: "managebook",
         element: <ManageService />
       },
-   
     ]
   }
 ]);

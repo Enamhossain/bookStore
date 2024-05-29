@@ -4,7 +4,7 @@ function Hero() {
   return (
     <header className="relative">
 <img
-  src="https://img.freepik.com/free-photo/cup-with-stationery-library_23-2147852010.jpg?t=st=1716900164~exp=1716903764~hmac=04217efaf1b798d7181d3ffff4c61b0f5e89a54dd82193cb2bbf1ac970613259&w=996"
+  src="https://images.unsplash.com/photo-1589998059171-988d887df646?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ym9va3xlbnwwfDB8MHx8fDA%3D"
   alt=""
   className="absolute -z-10 inline-block h-full w-full object-cover backdrop-filter backdrop-blur-lg shadow-lg"
 />

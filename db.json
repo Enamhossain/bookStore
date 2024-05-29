@@ -21,127 +21,152 @@
       "name": "Fantasy"
     },
     {
-      "id": "971e"
+      "id": "971e",
+      "name": "Unknown"
     }
   ],
   "books": [
     {
       "id": "1",
       "title": "1984",
-      "description": "A dystopian novel set in a totalitarian society under constant surveillance.",
+      "subtitle": "A dystopian novel set in a totalitarian society under constant surveillance.",
+      "description": "1984 is a dystopian social science fiction novel by English novelist George Orwell. It was published on 8 June 1949 by Secker & Warburg as Orwell's ninth and final book completed in his lifetime. Thematically, Nineteen Eighty-Four centres on the consequences of totalitarianism, mass surveillance, and repressive regimentation of persons and behaviours within society.",
       "price": 9.99,
       "rating": 4.8,
-      "category_id": 1,
-      "image_url": "https://m.media-amazon.com/images/I/61ZewDE3beL._AC_UF1000,1000_QL80_.jpg"
+      "category_id": "1",
+      "image_url": "https://m.media-amazon.com/images/I/61ZewDE3beL._AC_UF1000,1000_QL80_.jpg",
+      "author": "George Orwell"
     },
     {
       "id": "2",
       "title": "Pride and Prejudice",
-      "description": "A classic romance novel about the manners and matrimonial machinations among the British gentry of the early 19th century.",
+      "subtitle": "A classic romance novel about the manners and matrimonial machinations among the British gentry of the early 19th century.",
+      "description": "Pride and Prejudice is a romantic novel of manners written by Jane Austen in 1813. The novel follows the character development of Elizabeth Bennet, the dynamic protagonist of the book who learns about the repercussions of hasty judgments and comes to appreciate the difference between superficial goodness and actual goodness.",
       "price": 12.5,
       "rating": 4.6,
-      "category_id": 2,
-      "image_url": "https://m.media-amazon.com/images/M/MV5BMTA1NDQ3NTcyOTNeQTJeQWpwZ15BbWU3MDA0MzA4MzE@._V1_.jpg"
+      "category_id": "2",
+      "image_url": "https://m.media-amazon.com/images/M/MV5BMTA1NDQ3NTcyOTNeQTJeQWpwZ15BbWU3MDA0MzA4MzE@._V1_.jpg",
+      "author": "Jane Austen"
     },
     {
       "id": "3",
       "title": "To Kill a Mockingbird",
-      "description": "A novel about the serious issues of rape and racial inequality narrated by young Scout Finch.",
+      "subtitle": "A novel about the serious issues of rape and racial inequality narrated by young Scout Finch.",
+      "description": "To Kill a Mockingbird is a novel by Harper Lee published in 1960. It was immediately successful, winning the Pulitzer Prize, and has become a classic of modern American literature. The plot and characters are loosely based on Lee's observations of her family, her neighbors and an event that occurred near her hometown of Monroeville, Alabama, in 1936, when she was 10 years old.",
       "price": 8.99,
       "rating": 4.9,
-      "category_id": 3,
-      "image_url": "https://m.media-amazon.com/images/M/MV5BNmVmYzcwNzMtMWM1NS00MWIyLThlMDEtYzUwZDgzODE1NmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+      "category_id": "3",
+      "image_url": "https://m.media-amazon.com/images/M/MV5BNmVmYzcwNzMtMWM1NS00MWIyLThlMDEtYzUwZDgzODE1NmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+      "author": "Harper Lee"
     },
     {
       "id": "4",
       "title": "The Great Gatsby",
-      "description": "A story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan.",
+      "subtitle": "A story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan.",
+      "description": "The Great Gatsby is a novel by American writer F. Scott Fitzgerald. Set in the Jazz Age on Long Island, the novel depicts narrator Nick Carraway's interactions with mysterious millionaire Jay Gatsby and Gatsby's obsession with Nick's cousin Daisy Buchanan.",
       "price": 10.99,
       "rating": 4.4,
-      "category_id": 4,
-      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKi5lknrw7SIwZ01RQRqyvtXz2bFxrUsGVpA&s"
+      "category_id": "4",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKi5lknrw7SIwZ01RQRqyvtXz2bFxrUsGVpA&s",
+      "author": "F. Scott Fitzgerald"
     },
     {
       "id": "5",
       "title": "Moby Dick",
-      "description": "The saga of Captain Ahab and his relentless pursuit of the white whale, Moby Dick.",
+      "subtitle": "The saga of Captain Ahab and his relentless pursuit of the white whale, Moby Dick.",
+      "description": "Moby-Dick; or, The Whale is an 1851 novel by American writer Herman Melville. The book is the sailor Ishmael's narrative of the obsessive quest of Ahab, captain of the whaling ship Pequod, for revenge on Moby Dick, the giant white sperm whale that on the ship's previous voyage bit off Ahab's leg at the knee.",
       "price": 11.99,
       "rating": 4.2,
-      "category_id": 4,
-      "image_url": "https://m.media-amazon.com/images/M/MV5BYzg0MjFmMjAtMmNlMC00ZmEzLWE0ZDQtYTFhZjAyNzIxZWU3XkEyXkFqcGdeQXVyMjQwMjk0NjI@._V1_.jpg"
+      "category_id": "4",
+      "image_url": "https://m.media-amazon.com/images/M/MV5BYzg0MjFmMjAtMmNlMC00ZmEzLWE0ZDQtYTFhZjAyNzIxZWU3XkEyXkFqcGdeQXVyMjQwMjk0NjI@._V1_.jpg",
+      "author": "Herman Melville"
     },
     {
       "id": "6",
       "title": "War and Peace",
-      "description": "A historical novel that chronicles the history of the French invasion of Russia and the impact of the Napoleonic era.",
+      "subtitle": "A historical novel that chronicles the history of the French invasion of Russia and the impact of the Napoleonic era.",
+      "description": "War and Peace is a novel by the Russian author Leo Tolstoy, published serially, then in its entirety in 1869. It is regarded as one of Tolstoy's finest literary achievements and remains an internationally praised classic of world literature.",
       "price": 14.99,
       "rating": 4.7,
-      "category_id": 4,
-      "image_url": "https://cdn.penguin.co.uk/dam-assets/books/9781849908467/9781849908467-jacket-large.jpg"
+      "category_id": "4",
+      "image_url": "https://cdn.penguin.co.uk/dam-assets/books/9781849908467/9781849908467-jacket-large.jpg",
+      "author": "Leo Tolstoy"
     },
     {
       "id": "7",
       "title": "The Catcher in the Rye",
-      "description": "A story about the events and circumstances that take place in the life of Holden Caulfield.",
+      "subtitle": "A story about the events and circumstances that take place in the life of Holden Caulfield.",
+      "description": "The Catcher in the Rye is a novel by J. D. Salinger, partially published in serial form in 1945–1946 and as a novel in 1951. A classic novel originally published for adults, it has since become popular among adolescent readers for its themes of teenage angst and alienation.",
       "price": 7.99,
       "rating": 4.3,
-      "category_id": 3,
-      "image_url": "https://images.unsplash.com/photo-1544716278-e513176f20b5"
+      "category_id": "3",
+      "image_url": "https://images.unsplash.com/photo-1544716278-e513176f20b5",
+      "author": "J.D. Salinger"
     },
     {
       "id": "8",
       "title": "Jane Eyre",
-      "description": "A novel that follows the experiences of its eponymous heroine, including her growth to adulthood and her love for Mr. Rochester.",
+      "subtitle": "A novel that follows the experiences of its eponymous heroine, including her growth to adulthood and her love for Mr. Rochester.",
+      "description": "Jane Eyre is a novel by English writer Charlotte Brontë, published under the pen name Currer Bell, on 16 October 1847, by Smith, Elder & Co. of London. The first American edition was published the following year by Harper & Brothers of New York.",
       "price": 9.49,
       "rating": 4.5,
-      "category_id": 2,
-      "image_url": "https://images.unsplash.com/photo-1544716278-e513176f20b5"
+      "category_id": "2",
+      "image_url": "https://images.unsplash.com/photo-1544716278-e513176f20b5",
+      "author": "Charlotte Brontë"
     },
     {
       "id": "9",
       "title": "The Hobbit",
-      "description": "A fantasy novel about the journey of Bilbo Baggins as he seeks treasure guarded by Smaug the dragon.",
+      "subtitle": "A fantasy novel about the journey of Bilbo Baggins as he seeks treasure guarded by Smaug the dragon.",
+      "description": "The Hobbit, or There and Back Again is a children's fantasy novel by English author J. R. R. Tolkien. It was published on 21 September 1937 to wide critical acclaim, being nominated for the Carnegie Medal and awarded a prize from the New York Herald Tribune for best juvenile fiction.",
       "price": 8.5,
       "rating": 4.8,
-      "category_id": 5,
-      "image_url": "https://images.unsplash.com/photo-1544716278-e513176f20b5"
+      "category_id": "5",
+      "image_url": "https://images.unsplash.com/photo-1544716278-e513176f20b5",
+      "author": "J.R.R. Tolkien"
     },
     {
       "id": "10",
       "title": "Fahrenheit 451",
-      "description": "A dystopian novel about a future American society where books are outlawed and 'firemen' burn any that are found.",
+      "subtitle": "A dystopian novel about a future American society where books are outlawed and 'firemen' burn any that are found.",
+      "description": "Fahrenheit 451 is a dystopian novel by American writer Ray Bradbury, first published in 1953. Often regarded as one of his best works, the novel presents a future American society where books are outlawed and \"firemen\" burn any that are found.",
       "price": 9.75,
       "rating": 4.6,
-      "category_id": 1,
-      "image_url": "https://images.unsplash.com/photo-1544716278-e513176f20b5"
+      "category_id": "1",
+      "image_url": "https://images.unsplash.com/photo-1544716278-e513176f20b5",
+      "author": "Ray Bradbury"
     },
     {
       "id": "a658",
       "title": "Those Days",
-      "price": "12",
-      "category": "Classic",
-      "description": "সেই সময় একটি বাংলা ঐতিহাসিক উপন্যাস যার উপজীব্য ঊনবিংশ শতাব্দীর ব্রিটিশ শাসনামলের বিকাশমান কলকাতা নগরীর সমাজ এবং মানুষ"
+      "price": 12,
+      "category_id": "4",
+      "subtitle": "সেই সময় একটি বাংলা ঐতিহাসিক উপন্যাস যার উপজীব্য ঊনবিংশ শতাব্দীর ব্রিটিশ শাসনামলের বিকাশমান কলকাতা নগরীর সমাজ এবং মানুষ",
+      "author": "Saratchandra Chattopadhyay"
     },
     {
       "id": "537d",
       "title": "Himu (Novel)",
-      "price": "50",
-      "category": "Classic",
-      "description": "Best Humayun Ahmed Novel Books: Most Popular All Time (13 Products). By: Rokomari.com, 16 May 2019"
+      "price": 50,
+      "category_id": "4",
+      "subtitle": "Best Humayun Ahmed Novel Books: Most Popular All Time (13 Products). By: Rokomari.com, 16 May 2019",
+      "author": "Humayun Ahmed"
     },
     {
       "id": "be85",
       "title": "Those Days",
-      "price": "40",
-      "category": "Dystopian",
-      "description": "সেই সময় একটি বাংলা ঐতিহাসিক উপন্যাস যার উপজীব্য ঊনবিংশ শতাব্দীর ব্রিটিশ শাসনামলের বিকাশমান কলকাতা নগরীর সমাজ এবং মানুষ"
+      "price": 40,
+      "category_id": "1",
+      "subtitle": "সেই সময় একটি বাংলা ঐতিহাসিক উপন্যাস যার উপজীব্য ঊনবিংশ শতাব্দীর ব্রিটিশ শাসনামলের বিকাশমান কলকাতা নগরীর সমাজ এবং মানুষ",
+      "author": "Saratchandra Chattopadhyay"
     },
     {
       "id": "f055",
       "title": "Atomic Habits",
-      "price": "16",
-      "category": "Fiction",
-      "description": "A supremely practical and useful book. James Clear distils the most fundamental information about habit formation, so you can accomplish more by focusing on less."
+      "price": 16,
+      "category_id": "3",
+      "subtitle": "A supremely practical and useful book. James Clear distils the most fundamental information about habit formation, so you can accomplish more by focusing on less.",
+      "author": "James Clear"
     }
   ]
 }
